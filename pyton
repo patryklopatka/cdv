@@ -1,0 +1,42 @@
+print("CDV")
+print(2)
+#potega
+potega = 2 ** 10
+print(potega)
+tekst = "CDV"
+print(tekst * 2)
+#pobieranie danych z klawiatury
+imie = 'Jan'
+#można zrobić input(), kopiuje to co wpisano na klawiaturze do zmiennej.
+print("twoje imie podane z klawiatury: " + imie )
+nazwisko = 'Nowak'
+print("Twoje dane: " + imie +" "+ nazwisko)
+
+dlugosc = len(nazwisko)
+print(dlugosc)
+
+print (type(imie))
+print (type(nazwisko))
+wiek = input()
+print("wiek: " + wiek)
+wiekA = 30
+print (type(wiekA))
+print(wiekA)
+
+pierwszyznak = nazwisko[0]
+print(pierwszyznak)
+
+ostatniznak = nazwisko[len(nazwisko) -1]
+print(ostatniznak)
+
+#konwersja
+x= "5"
+print (type(x))
+x=int(x)
+print (type(x))
+
+y=4
+print(type(y))
+y= 4 / 2
+print (type(y))
+print (y)
