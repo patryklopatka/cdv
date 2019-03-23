@@ -1,0 +1,2 @@
+#pierwszy program
+print ("CDV")
