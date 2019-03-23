@@ -1,2 +1,2 @@
 #pierwszy program
-print ("CDV")
+print ("CDV")12
