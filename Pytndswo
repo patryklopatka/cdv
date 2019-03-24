@@ -1,0 +1,48 @@
+tekst =  "Anna , Pawel , RomEk"
+tab = tekst.split(",")
+print(tekst)
+print(tab)
+imie1=tab[2]
+print(imie1)
+print("twoje imie: " +imie1)
+imieDuze = imie1.upper()
+print (imieDuze)
+
+imiemale = imie1.lower()
+print (imiemale)
+
+#sprawdzamie zawartosci
+zawartosc=imie1.isalpha()
+print(type(zawartosc))
+
+imie = ""
+zawartosc = imie1.isalpha()
+print(zawartosc)
+print(type(zawartosc))
+
+imie = "julia"
+print("\nDane uzyttkownika\n masz na imie: " +imie)
+text1 ="jan\n"
+text2 ="Nowak\n"
+text3 = (text1 + text2)
+print(text3)
+
+
+#pi
+import math
+pi=math.pi
+print(pi)
+
+#pierwiastek
+pierwiastek= math.sqrt(9)
+print(pierwiastek)
+
+#random
+
+import random
+losuj = random.random()
+print(losuj)
+losujZlisty = random.choice([1,2,3,4,5])
+print(losujZlisty)
+
+
